@@ -3041,7 +3041,7 @@ long PHYSOB_CheckForEnemyInBlkSpot(struct _Instance *instance, int dx, int dy) /
             inst->position.y < y0 || 
             y1 < inst->position.y || 
             inst->position.z < z0 || 
-            (z1 < inst->position.z))
+            z1 < inst->position.z)
 			{
 
             inst = inst->next;
